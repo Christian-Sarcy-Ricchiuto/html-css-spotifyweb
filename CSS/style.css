@@ -1,0 +1,32 @@
+/* Main Color */
+:root {
+    --main-color: #141A22;
+    --secondary-color: #090A0C;
+    --accent-color: #141A22;
+    --font-color: #BEBEBE;
+    --footer-color: #2A2A2A;
+    --selector-color: #C7F11F;
+}
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* Generics */
+body {
+    font-family: 'Montserrat', sans-serif
+}
+
+.main-content {
+    height: 100vh;
+    background-color: var(--main-color);
+}
+
+footer {
+    height: 100px;
+    background-color: var(--footer-color);
+}
